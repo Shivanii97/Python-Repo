@@ -1,0 +1,21 @@
+Git
+
+-Git is a distributed control system, it's a software.Git is a version control system used for tracking changes in computer files.
+ Git Hub - GitHub, on the other hand, is a service that let you host, share, and manage your code files on the internet.
+
+#Can write user name,email - git config command
+  git config -- global user.name shivani
+  git config -- global user.email shivanchoubey24@gmail.com
+
+#git init - intializing repository,empty repository made
+#git.status - to show the status of the file
+ git.status-s (to check the staus in a short form).
+#git add index.html -                   (moving to the staging area)
+#touch about.html - used to make blank files in it.
+#git add-A -             (can add all files alltogether in staging area)
+#git checkout - used to recover a file if in case its deleted(for one file)
+#git checkout - F (used to recover files in bundles)
+#git log - tells you the files which you have committed (all committed files are here)
+#git diff - tells you what changes you have made in the file.(if working directory and staging will be the same, then it will not show any change)
+#git diff --staged (it will compare the staging area from the last commit)
+

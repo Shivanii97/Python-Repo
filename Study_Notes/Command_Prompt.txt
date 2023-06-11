@@ -1,0 +1,36 @@
+ Command Prompt
+
+For opening an Ms Word, we usually use GUI(Graphical User Interface) to open it, but if we have to open Ms word through command prompt, then
+we will write command for it to open it.
+Command Prompt - cmd.exe
+
+#Command Prompt - to hide/unhide/protect/encrypt/delete/system information/copy/creating folders, etc by using command.
+
+#Relative Path -A relative path describes the location of a file relative to the current (working) directory.
+Relative path is defined as path related to the present working directory. Suppose Suppose I am located in C:\Users\us466003> and I want to change
+to change the directory to Intel, then I will use relative path to change directory to Intel.
+
+#Absolute Path - An absolute path describes the location from the root directory.
+
+#Cmd used for:
+-System Info
+-Vol
+-Version
+-Date
+-Time
+
+#To create a folder - mkdir shivani
+#To create a file - type nul > cmds.txt
+#To rename a file - cmds.txt cmd.txt
+#To write inside the file - notepad cmd.txt
+#To copy the matter to another file - copy cmd.txt demo.txt
+#To delete a file - del demo.txt
+#To delete a folder - rmkdir demo.txt
+#To move file into Folder - move style.ss pratik
+#To view the contents of the file - type cmd.txt
+#To move back from the folders - cd../../../../
+#To go into the file - cd desktop
+
+
+
+
