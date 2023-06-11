@@ -19,3 +19,39 @@ Git
 #git diff - tells you what changes you have made in the file.(if working directory and staging will be the same, then it will not show any change)
 #git diff --staged (it will compare the staging area from the last commit)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Steps to push code on Git
+
+ 1) git status :
+    To show the changed files or newly added or deleted files in git repository
+
+ 2) git add . :
+    To stage all the changed files for commit. Incase not all the files are needed to be staged add those
+    files individually.
+        git add .                               //to add all files for staging  
+        git add <File name> or                  //to add single file for staging
+        git add <File1> <File2> <File3>         //to add multiple files for staging
+
+3)git commit -m "<Commit message or changes description>" :
+    this will commit all the changes under a commit id. To see the commit and commit id use git log.
+    These changes will be available only for local environment and not for server.
+
+4)  git push <remote name> <branch name> :
+    this will push all the locally present commit to server. For ex - git push origin main.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Additional git commands
+    git init
+    git log
+    git branch
+    git diff
+    git stash
+    git stash pop
+    git checkout -b <branch name>
+    git checkout <branch name or commit id>
+    git clean -fd 
+    git config -- global user.name shivani
+    git config -- global user.email shivanchoubey24@gmail.com
+    
