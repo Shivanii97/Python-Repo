@@ -1,0 +1,70 @@
+What is Programming?
+    Programming is a way to us to tell computers what to do.Computer is a ver dumb machine and it only does
+    what we tell it to do,Hence we learn programming and tell computers to do what we are slow at doing 
+    computation. Just like we use hindi or english to communicate with each other, we use a programming
+    langugage just like python to communicate with the computers.
+    Programming is a way to instruct computers to perform various tasks.
+
+What is Python?
+    Pyhton is a simple and easy language which feels like reading simple english.Python is interpreted 
+    and high-level language.
+
+Features :
+    Easy to understand = Less develpoment time
+    High-level language
+    Portable = works on linux/windows/mach(platform Independent)
+    Cost free - No cost for leaning python
+
+What Python is used for:
+    Data Visualization to create plots and Graphical Representation.
+    Create web application
+    used to Handle database
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+What are Modules?
+    A module is alike a code library which can be used to borrow the code written by somebody else
+    in our python programs. Can be imported and used in our programs.
+
+Types of Modules:
+    Built-in-Modules - Pre installed in python.
+    External Modules - Need to install using pip - import panda
+
+What is Pip?
+    Pip is a package mangaer for python, you can use pip to install a module.
+    Whatever module which is not there in our system, we can use pip to install in our system. \
+    Ex- pip3 install scikit-learn
+    
+-------------------------------------------------------------------------------------------------------------------------------
+Whar are comments?
+    Comments are used to write something which the programmer does not want to execute.
+    Suppose if I am learning to write a program in python and want to remember for future also what
+    I have written at that time. So. I will add some text over there to remeber in future, so I will
+    use comments to add texts in program using <#>
+    <#> is used for writing comments in programs.
+
+    Ex:
+    #What is the code for running program in python?
+    Ex-  Print("Hello World")
+
+ How to uncomment a text?
+    ctrl+/
+
+  Types of Comments
+    1) Single Line Comments - #
+        Ex- #Hello World    
+            #This is Shivani
+            #Good Morning
+
+    2) Multi-Line Comments - '''_''' """_"""  
+        Ex- '''
+            Hello World
+            This is Shivani
+            Good Morning
+            '''
+
+-----------------------------------------------------------------------------------------------------------------
+
+What is Escape Sequence Character?
+    To inser charcters that cannot be used directly in a string, we use a escape sequence charcter.
+    An escape sequence charcter is backslash <\> followed by the charcter you want to insert.
