@@ -68,3 +68,182 @@ Whar are comments?
 What is Escape Sequence Character?
     To inser charcters that cannot be used directly in a string, we use a escape sequence charcter.
     An escape sequence charcter is backslash <\> followed by the charcter you want to insert.
+
+
+What is Separtor
+    sep='separtor'. Specify how to separte the objects, if there is more than one.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Variables and Data Types
+    Variables is like a container that holds data. Very similar to how our containers in kitchen holds
+    sugar,salt,etc. Creating a variable is like creating a placeholder in the memory and assigning it
+    some value.
+
+These are four variables of different data types
+    a = 1
+    b = true
+    c = "Harry"
+    d = none
+
+What is a Data type?
+    Data types specifies the type of valua a variable holds. This is required in programming to
+    various operations without causing an error.
+
+    In python, we can print the type of any operator by using type function:
+    a=1
+    print(type(a))
+    b="1"
+    print(type(b))
+
+By default, python provide following built-in data types:
+
+    1)Numeric Data - int,float,complex
+    Ex:
+    int: 3,-8,0
+    float: 7.439,-9.0,0.00001
+    complex:6+2i
+
+    2)Txt data:str
+    str."Hello World,"Python Programming"
+
+    3)Boolean data:
+    Boolean data consist of values True or False.
+
+    4)Sequenced data:list,tuple
+    #list: a list is an ordered collection of data separted by a comma and enclosed by square brackets.
+          lists are mutable and can be modified after creation.
+    Ex-
+    list1 = [8,2.3,[-4,5],["apple,banana"]]
+    print(list1)
+    Output: [8,2.3,[-4,5],['apple,banana']]
+
+    #Tuple: a list is an ordered collection of data separted by a comma and enclosed within parantheses.
+            tuples are inmutables and cannot be modified after creation.
+    Ex-
+    tuple1 = (("parrot","eagle"),("apple","banana")
+    print(tuple1)
+    Output : (('parrot','eagle'),('apple','banana')
+
+    5) Mapped data: dict
+        dict: a dictionary is an ordered collection of data containg a key,:value pair. 
+        The key: values are enclosed withib curly brackets.
+    Ex- 
+    dict1 = {"Name":"Sakshi","Age":20,"canVote":True}
+    Output : {'Name':'Sakshi','Age':20,'canVote':True}
+
+----------------------------------------------------------------------------------------------------------------------------
+ 
+ Operators
+    Python has different operator. To create a calculator we require arithmetic Operators.
+    + - Addition        print(5+6)
+    (-) Substraction
+    * - Multiplication
+    ** - Exponential
+    /  - Division
+    % - Modulus        print(5%3), suppose if no. is 2.5 and you want only (2), so in that case you use
+                       it, it gives you reminder.
+    // - Floor Division
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Typecasting
+The conversion of one data type into the another data type called type casting or
+type conversion in python.
+Python supports a wide variety of functions or methods like: int(), float(),str(),ord(),tuple(),set()
+list(),etc..are the type casting in python...
+
+Two Types of Typecasting:
+ 1)Explicit Typecasting
+ 2)Implicit Typecasting
+
+Explicit typecasting - The conversion of one data type into the another data type, done via develpor
+                        or programmer's
+Implicit typecasting - 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Taking User Input in Python
+
+In python, we take user input directly by using input() function. This input function gives a return 
+value as a string/charcter hence we have to pass that into a variable.
+    Variable = input()
+but input function returns the value as a string, hence we have to typecast
+    variable = int(input())
+
+We can also display a txt by using int(). This will make int() function take user input and display
+and display a msg as well.
+    a = input("Enter your Name:")
+    print(a) 
+    output = Enter your name: Shivani
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Strings Methods
+Python provides a set of built-in methods we can
+
+***upper():
+str1 = "AbSBdNy"
+print(str1.upper())
+output = ABSBDNY
+
+***lower():
+str1 = "AbSBdNy"
+print(str1.lower())
+output = AbSBdNy
+
+***strip(): the strip() method removes any white spaces before and after the string.
+str2 = " Silver Spoon "
+print(str2.strip)
+output = Silver Spoon
+
+***rstrip(): the rstrip() removes any trailing characters.
+str3 = "Hello !!!"
+print(str3.rstrip("!"))
+output = Hello
+
+***replace(): the replace() method replaces all occurences of a string with another string.
+str2 = "Silver Spoon"
+
+
+
+***split():it splits the given string at the specified instance and returns the separted strings as list
+items:
+str2 = "Silver Spoon"
+print(str2.split(" "))
+output = ['Silver', 'Spoon']
+
+***Captialize : methods turns only the first character of the string to uppercase and the rest of the
+strings to lowercase. The string has no effect if the first chacter is already uppercase.
+
+str1 = "hello"
+capstr1 = str1.capitalize()
+print(capstr1)
+output = Hello
+
+str2 = "hello worLD"
+capstr2 = str2.capitalize()
+print(capstr2)
+output = Hello world
+
+***Center(): it aligns the strings to the center as per the parameter given by the user:
+
+str1 = "Welcome to the Console!!!"
+print(str1.center(50))
+output =                Welcome to the Console!!!
+
+
+***Count() :  it returns the number of times the given has occurred.
+str2 = AbracaDabra
+countstr = str2.count("a")
+print(countstr)
+output = 4
+
+
+
+
+
+
+
+
+
