@@ -20,6 +20,9 @@ print("Hello World, my name is \"shivani\"\nand my age is 25")
     #Ex- Hello World, my name is "shivani"
          #and my age is 25
 
+print("Hello, how are you?")
+print("Hey, how are you\nwhat's going on? I heard you got an new \"opportunity\"\nLet's meet this weekend")
+
 
 
 

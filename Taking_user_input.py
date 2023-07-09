@@ -18,3 +18,10 @@ print(int(x) - int(y))
 print(int(x) / int(y))
 print(int(x) * int(y))
 print(int(x) // int(y))
+
+a =input("Enter your Name")
+print(a)
+
+n = input("Enter your First Number")
+m = input("Enter your second Number")
+print(n+m)
